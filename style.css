@@ -61,7 +61,7 @@ header > h1 {
     font-weight: bold;
 }
 .choices {
-    margin: 50px 0;
+    margin-top: 50px 0;
     text-align: center;
 }
 
@@ -71,4 +71,18 @@ header > h1 {
     margin: 0 20px;
     padding: 10px;
     display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: blue;
+}
+
+#action-message {
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
 }
